@@ -55,7 +55,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testEqual() {
-		boolean result = calculator.equalIntegers(20, 20);
+		boolean result = calculator.equalIntegers(20, 19);
 		assertTrue(result);
 	}
 
